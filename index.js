@@ -17,7 +17,7 @@ const mapper = async site => {
 		return JSON.parse(Response.body).tag
 	});
 	console.clear()
-	console.log(`Progress ${site.split('pid=')[1]}/${iteration_count}`)
+	console.log(`Page ${site.split('pid=')[1]}`)
 	return requestUrl;
 };
 
