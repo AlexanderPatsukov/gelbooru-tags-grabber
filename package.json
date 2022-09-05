@@ -2,7 +2,6 @@
   "type": "module",
   "dependencies": {
     "got": "^12.4.1",
-    "node-fetch": "^3.2.10",
     "p-map": "^5.5.0"
   }
 }
